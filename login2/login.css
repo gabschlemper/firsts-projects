@@ -1,0 +1,132 @@
+* { box-sizing: border-box; padding: 0; margin: 0}
+body {
+    background-color: #f1f2f2;
+}
+.tudo{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.tudo > div{
+     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+.left {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 50px 50px;
+    background-color: #b50731;
+}
+.upleft 
+{
+    flex: 1 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+  
+}
+
+.pleft {
+    color:white;
+}
+
+.erranleft {
+    color: white;
+    display: flex;
+    text-decoration: none;
+}
+
+.right {
+    background-color: white;
+    width: 400px;
+    padding: 50px 50px;
+}
+    
+h1 {
+    color: rgb(17, 17, 17) ;
+}
+
+.welcome {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #adb1ba;
+}
+    
+.erranright {
+    text-decoration: none;
+    color: #adb1ba;
+    font-size: 14px;
+    padding-top: 0;
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 5px;
+
+}
+
+.textcashier {
+    font-size: 14px;
+    color: #adb1ba;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.cashier {
+    border: 1px solid #e4e4e4;
+    height: 35px;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.recuperar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.rememberme {
+    color: #414141;
+
+}
+.forgetpassword {
+    text-decoration: none;
+    color: #adb1ba;
+}
+
+button {
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 50px;    
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #b50731;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+.newuser {
+    color: #adb1ba;
+    font-size: 14px;
+
+}
+.signup {
+    text-decoration: none;
+    color: #b50731;
+
+}
